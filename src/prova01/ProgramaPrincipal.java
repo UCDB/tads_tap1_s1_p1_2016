@@ -21,7 +21,7 @@ public class ProgramaPrincipal {
         maisLeve.imprimirDados();
 
         Cliente maisPesado = gc.getMaisPesado();
-        maisLeve.imprimirDados();
+        maisPesado.imprimirDados();
 
         double mediaPesos=   gc.mediaPesos();
         System.out.println(mediaPesos);
